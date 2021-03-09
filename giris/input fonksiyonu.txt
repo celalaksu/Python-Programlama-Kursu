@@ -1,0 +1,106 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a= 45
+>>> b = 46
+>>> ad_soyad = "Celal aksu"
+>>> "input - metin kutusu - textbox- entry
+SyntaxError: EOL while scanning string literal
+>>> input()
+herhangi birşey
+'herhangi birşey'
+>>> deg_ismi = veri
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    deg_ismi = veri
+NameError: name 'veri' is not defined
+>>> ad_soyad = input("Adınızı soyadınızı giriniz:")
+Adınızı soyadınızı giriniz:Celal Aksu
+>>> print(ad_soyad)
+Celal Aksu
+>>> dogum_yeri = input("Doğrum yerinizi giriniz :")
+Doğrum yerinizi giriniz :Hopa
+>>> print(dogum_yeri)
+Hopa
+>>> 
+=================== RESTART: F:/celalaksu/hesap_makinesi_2.py ==================
+Birinci sayıyı gir : 36
+İkinci sayıyı gir : 13
+Traceback (most recent call last):
+  File "F:/celalaksu/hesap_makinesi_2.py", line 13, in <module>
+    cikarma_sonucu = a - b
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+>>> 
+>>> 
+>>> input()
+555
+'555'
+>>> "girilen bütün verilerin tipi string tir"
+'girilen bütün verilerin tipi string tir'
+>>> a = input()
+55
+>>> print(a)
+55
+>>> type(a)
+<class 'str'>
+>>> "VERİ DÖNÜŞTÜRME"
+'VERİ DÖNÜŞTÜRME'
+>>> int()
+0
+>>> int("45")
+45
+>>> type(a)
+<class 'str'>
+>>> a = int(a)
+>>> type(a)
+<class 'int'>
+>>> b = "abc"
+>>> type(b)
+<class 'str'>
+>>> b = int(b)
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    b = int(b)
+ValueError: invalid literal for int() with base 10: 'abc'
+>>> 
+=================== RESTART: F:/celalaksu/hesap_makinesi_2.py ==================
+Birinci sayıyı gir : 45
+İkinci sayıyı gir : 36
+Toplama işleminin sonucu :  81
+Çıkarma işleminin sonucu :  9
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> str()
+''
+>>> str(44)
+'44'
+>>> sayi = 45
+>>> type(sayi)
+<class 'int'>
+>>> sayi = str(45)
+>>> type(sayi)
+<class 'str'>
+>>> float()
+0.0
+>>> float(34)
+34.0
+>>> float("45")
+45.0
+,
+>>> casting

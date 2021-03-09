@@ -1,0 +1,61 @@
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> sayi1 = 35
+>>> sayi2 = 45
+>>> sayi1 + sayi2
+80
+>>> toplam = sayi1 + sayi2
+>>> 
+>>> print(toplam)
+80
+>>> print(toplam)
+80
+>>> ad_soyad = "Celal Aksu"
+>>> print(ad_soyad)
+Celal Aksu
+>>> tel_no = "02222222222"
+>>> e_posta = "falanfilan@falan.com"
+>>> tc_kimlik_no = "11111111111"
+>>> 
+>>> ogrenci_mi = True
+>>> uye_mi = False
+>>> 
+>>> a, b = 5, 7
+>>> a = 5
+>>> b = 7
+>>> 
+>>> print("Merhaba")
+Merhaba
+>>> print(tc_kimlik_no)
+11111111111
+>>> 
+>>> print(tel_no)
+02222222222
+>>> print(tc_kimlik_no, tel_no)
+11111111111 02222222222
+>>> print(tc_kimlik_no, "\n" , tel_no)
+11111111111 
+ 02222222222
+>>> print("Merhaba", ad_soyad)
+Merhaba Celal Aksu
+>>> print("Merhaba" + ad_soyad)
+MerhabaCelal Aksu
+>>> print(f"Merhaba {ad_soyad}.Nasılsın?")
+Merhaba Celal Aksu.Nasılsın?
+>>> "BOŞ DEĞİŞKEN OLUŞTURMA"
+'BOŞ DEĞİŞKEN OLUŞTURMA'
+>>> A = 55
+>>> a = None
+>>> print(a)
+None
+>>> b = int()
+>>> print(b)
+0
+>>> c = str()
+>>> print(c)
+
+>>> "PYTHON DEĞİŞKENLER DİNAMİKTİR"
+'PYTHON DEĞİŞKENLER DİNAMİKTİR'
+>>> X = 50
+>>> X = "ELLİ"
+>>> 
