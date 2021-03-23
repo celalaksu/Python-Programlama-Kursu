@@ -3,6 +3,7 @@
 
 class Kalem():
     # renk = "Mavi"
+    # sınıf değişkeni-özelliği
     sinif_adi = "Pencil"
 
     def __init__(self,renk):
@@ -10,5 +11,5 @@ class Kalem():
         print("Yapıcı-constructor metod çalıştı.")
 
     # metod
-    def yazdir(self):
+    def yazdir(self,):
         print("Bu kalemin işi yazı yazmaktır.")

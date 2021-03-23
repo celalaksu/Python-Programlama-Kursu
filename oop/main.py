@@ -4,6 +4,8 @@ kalem1 = Kalem("Mavi")
 print(kalem1.rengi)
 print(kalem1.sinif_adi)
 
+
+
 kalem2 = Kalem("Kırmızı")
 print(kalem2.rengi)
 print(kalem2.sinif_adi)
