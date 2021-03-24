@@ -1,5 +1,6 @@
 # composition-kompozisyon
 import time
+
 class TekerlekliArac():
     def yon_degistir(self, yon, durum):
         print("Tekerlekli araç ", yon, durum)
@@ -17,8 +18,9 @@ class Arac():
         time.sleep(0.25)
         self.sinif_kontrol.yon_degistir(yon, "Dur")
 
+
 bmw_m = Arac(TekerlekliArac())
 bmw_m.dondur("sol")
 
-tankim = Arac(PaletliArac())
-tankim.dondur("sağ")
+p_arac = Arac(PaletliArac())
+p_arac.dondur("sağ")

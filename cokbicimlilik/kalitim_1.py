@@ -1,5 +1,6 @@
 import time
-
+# hatalı çalışıyor -- kontrol et
+# nesne tanımlayarak dene
 class PaletliArac():
     def arac_kontrol(self, yon, durum):
         pass
