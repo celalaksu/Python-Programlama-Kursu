@@ -1,0 +1,16 @@
+{
+    "ders":[{
+        "adi": "Python",
+        "kurum": "Arhavi HEM"
+    },
+    {
+        "adi": "Mat",
+        "kurum": "Arhavi HEM"
+    }
+    ],
+    "sinif": 10,
+    "atolye": {
+        "pc": "masaüstü",
+        "perde":"stor"
+    }
+}
