@@ -25,9 +25,10 @@ while ((secim := input("Hangi işlemi yapmak istiyorsunuz ? : ( 1-Toplama, 2-Ç�
             for i in sayilar:
                 sonuc = sonuc * i  
         case "4":
-            sonuc = 1
-            for i in sayilar:                                
-                sonuc = sayilar[i] / sonuc 
+            b_sonuc=sayilar[0]
+            for i in range(len(sayilar)-1):
+                b_sonuc = b_sonuc / sayilar[i+1]
+            sonuc = b_sonuc 
         case "5":
             break 
         case _:
