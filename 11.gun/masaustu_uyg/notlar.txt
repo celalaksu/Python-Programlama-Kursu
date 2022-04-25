@@ -1,0 +1,48 @@
+Paketlerle Çalışırken
+
+Klasör adında BOŞLUK olmamalı
+
+c:\proje
+d:\proje
+
+Kurulumda hata olursa
+    cmd
+    powershell yönetici olarak çalıştırmak gerekebilir.
+
+ 1- Sanal ortam - Virtual Environment.
+    Python asıl kurulumunun kopyası
+    Proje için kullanılan paketler asıl python kurulumana değil
+    sadece proje klsörüne yüklenir.
+
+    projede gereksiz paketler olmasını engeller
+    python boyutunu büyümesini.
+
+pip install virtualenv # sanal ortam oluşturmak için gerekli paketi yükler
+
+python -m venv venv # sanal ortam oluşturur. ikinci "venv" sanal ortam adıdır. Değiştirebilirsiniz.
+python -m venv proje_adi
+
+venv\Scripts\activate # sanal ortamı aktifleştirir. (venv) PS C:\Users\Education\Desktop\masaustu_uyg> 
+
+proje_adi\Scripts\activate
+
+Sanal ortamı seçmeniz gerekir. Ctrl + Shift + P / Select Inter.... gelen seçeneklerden
+sanal ortamı seç venv / proje_adi
+
+Sanal ortamı devre dışı bırakma
+
+deactivate
+
+PAKET KURULUMU YAPILABİLİR.
+
+pip install PyQt5
+
+HATA OLUŞURSA
+
+VS C++ vedist kurulması gerekebilir
+https://aka.ms/vs/17/release/vc_redist.arm64.exe
+https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+SANAL ORTAM KULLANMAYIN
+PAKET KURULUMUNU powershell i yönetici çalıştırın ve paketi kurun
+
