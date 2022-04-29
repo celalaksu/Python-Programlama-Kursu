@@ -1,0 +1,4 @@
+Buradaki örnekler kök klasörde oluşturuldu 
+sonradan bu klasöre alındı.
+
+Eğer hata oluşursa, kök klasöre kopyalayarak çalıştırın.

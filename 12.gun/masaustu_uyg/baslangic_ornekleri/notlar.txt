@@ -1,0 +1,65 @@
+Paketlerle Çalışırken
+
+Klasör adında BOŞLUK olmamalı
+
+c:\proje
+d:\proje
+
+Kurulumda hata olursa
+    cmd
+    powershell yönetici olarak çalıştırmak gerekebilir.
+
+ 1- Sanal ortam - Virtual Environment.
+    Python asıl kurulumunun kopyası
+    Proje için kullanılan paketler asıl python kurulumana değil
+    sadece proje klsörüne yüklenir.
+
+    projede gereksiz paketler olmasını engeller
+    python boyutunu büyümesini.
+
+pip install virtualenv # sanal ortam oluşturmak için gerekli paketi yükler
+
+python -m venv venv # sanal ortam oluşturur. ikinci "venv" sanal ortam adıdır. Değiştirebilirsiniz.
+python -m venv proje_adi
+
+venv\Scripts\activate # sanal ortamı aktifleştirir. (venv) PS C:\Users\Education\Desktop\masaustu_uyg> 
+
+proje_adi\Scripts\activate
+
+Sanal ortamı seçmeniz gerekir. Ctrl + Shift + P / Select Inter.... gelen seçeneklerden
+sanal ortamı seç venv / proje_adi
+
+Sanal ortamı devre dışı bırakma
+
+deactivate
+
+PAKET KURULUMU YAPILABİLİR.
+
+pip install PyQt5
+
+pyqt5 için pyside2 kaynağı kullanılabilir
+https://doc.qt.io/qtforpython-5/quickstart.html
+
+https://doc.qt.io/qtforpython/
+
+pyqt6 için pyside6 kaynağı kullanılabilir
+
+TASARIM EKRANI İLE ÇALIŞMAK İÇİN
+
+pip install PyQt5designer
+
+Paket içinde designer.exe bul, çalıştır.
+tasarımı YAP - proje klasörüne kayıt et 
+
+Aşağıdaki komut ile py dosyasını oluştur.
+pyuic5 -o ana_ekran_ui.py ana_ekran.ui
+
+HATA OLUŞURSA
+
+VS C++ vedist 2017 2019 kurulması gerekebilir
+https://aka.ms/vs/17/release/vc_redist.arm64.exe
+https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+SANAL ORTAM KULLANMAYIN
+PAKET KURULUMUNU powershell i yönetici çalıştırın ve paketi kurun
+
