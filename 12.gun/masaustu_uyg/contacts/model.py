@@ -14,10 +14,10 @@ class BaglantilarModeli:
         tabloModeli.setEditStrategy(QSqlTableModel.OnFieldChange)
         tabloModeli.select()
 
-        basliklar = ("kimlik", "adsoyad", "meslek", "email")
+        tablo_basliklari = ("Kimlik", "Ad Soyad", "Meslek", "Eposta")
 
-        for sutunIndex, baslik in enumerate(basliklar):
-            tabloModeli.setHeaderData(sutunIndex, Qt.Horizontal, basliklar)
+        for sutunIndex, baslik in enumerate(tablo_basliklari):
+            tabloModeli.setHeaderData(sutunIndex, Qt.Horizontal, baslik)
 
         return tabloModeli
 
