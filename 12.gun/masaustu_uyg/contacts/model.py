@@ -26,7 +26,14 @@ class BaglantilarModeli:
     def ekle(self, data):
         satirlar = self.model.rowCount()
         self.model.insertRows(satirlar, 1)
+        # sutun değişkeni 0, 1,2 olarak enumerate sayesinde otomatik oluşturulur
+        # sutun değişkeni tabloya eklenen yeni satırın (row un) index nosunu oluşturmak içindir.
+        # alan değişkeni veriyi tutmak içindir.
         for sutun, alan in enumerate(data):
+            # tablo da 4 alan vardır index noları da 0,1,2,3,4 tür.
+            # 0. index e kimlik geleceği için   "sutun + 1" ile 
+            # row(satır)ın index nosu 1 arttırılarak, gelen veriler satıra set edilmektedir
+            # eklemek için hazırlanmaktadır.
             self.model.setData(self.model.index(satirlar, sutun + 1),alan)
         self.model.submitAll()
         self.model.select()
