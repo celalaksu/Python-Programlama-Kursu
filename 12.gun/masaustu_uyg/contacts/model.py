@@ -10,6 +10,7 @@ class BaglantilarModeli:
     def _modelOlustur():
         tabloModeli = QSqlTableModel()
         tabloModeli.setTable("baglantilar")
+       # Tablo içinden kaydın güncellenemesini sağlamaktadır. -OnFieldChange
         tabloModeli.setEditStrategy(QSqlTableModel.OnFieldChange)
         tabloModeli.select()
 
