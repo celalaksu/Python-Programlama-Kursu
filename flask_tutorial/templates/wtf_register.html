@@ -1,0 +1,32 @@
+{% extends "block_kalitim_layout.html" %}
+ 
+ {% block title %}
+        <title>Register</title>
+ {% endblock %}
+ 
+ {% block body %}
+        <body>
+        {% include "sablon_navbar.html" %}
+        <div class="jumbotron">
+            <h3>Yeni Kullanıcı</h3>
+             <form action="http://127.0.0.1:5000/users" method="post">
+                 {{ form.name.label() }} <br>
+                 {{ form.name() }} <br>
+ 
+                 {{ form.surname.label() }} <br>
+                 {{ form.surname() }} <br>
+ 
+                {{ form.email.label() }} <br>
+                {{ form.email() }} <br>
+ 
+                 {{ form.password.label() }} <br>
+                {{ form.password() }} <br>
+                  {{ form.confirm.label() }} <br>
+                {{ form.confirm() }} <br>
+                 {{ form.submit() }}
+        </form>
+ 
+        </div>
+ 
+        </body>
+ {% endblock %}

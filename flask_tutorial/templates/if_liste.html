@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is webpage</title>
+        <style type="text/css">
+            h1 {color:orange;}
+            h2 {color: green;}
+            body {background-color: whitesmoke;}
+        </style>
+    </head>
+<body>
+    
+
+    {% if l == 'python' %}
+        <h1>Hi {{q[0]}}</h1>
+
+    {% elif l=="java" %}
+        <h1>Hi {{q[1]}} sende kimsin be</h1>
+    {% elif l=="javascript" %}
+        <h1>Hi {{q[2]}} sende kimsin be</h1>
+    {% else %}
+       <h1> hİ {{l}}, YOu are not authorized</h1>
+
+
+    {% endif %} 
+
+</body>
+</html>

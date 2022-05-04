@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is webpage</title>
+        <style type="text/css">
+            h1 {color:orange;}
+            h2 {color: green;}
+            body {background-color: whitesmoke;}
+        </style>
+    </head>
+<body>
+
+
+    {% if l == 'Celal' %}
+        <h1>Hi {{l}}</h1>
+
+    {% elif l=="abc" %}
+        <h1>Hi {{l}} sende kimsin be</h1>
+    {% else %}
+       <h1> hİ {{l}}, YOu are not authorized</h1>
+
+
+    {% endif %} 
+
+</body>
+</html>
