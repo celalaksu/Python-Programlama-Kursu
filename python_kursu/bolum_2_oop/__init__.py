@@ -1,0 +1,1 @@
+# modül olarak kulanılınca çalışmasını istediğiniz kodları eklyebilirsiniz
