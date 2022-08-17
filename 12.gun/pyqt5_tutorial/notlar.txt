@@ -1,0 +1,14 @@
+Python 3.9 default yol ile kurulumu yapıldı. Add to Path seçildi.
+
+
+Paket Kurulumu için Power Shell yönetici olarak çalıştırıldı.
+
+pip install PyQt5
+
+pip install PyQt5designer
+
+!!! ARAYÜZ OLUŞTURULDUKTAN SONRA PY DOSYASINI OLUŞTURMAK İÇİN
+
+pyuic5 -o main_window_ui.py ui/main_window.ui
+
+------------komutunu girin.
