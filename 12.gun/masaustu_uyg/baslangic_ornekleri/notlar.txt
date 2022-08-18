@@ -24,6 +24,22 @@ python -m venv proje_adi
 
 venv\Scripts\activate # sanal ortamı aktifleştirir. (venv) PS C:\Users\Education\Desktop\masaustu_uyg> 
 
+Hata oluşursa: 
+.venv\Scripts\activate : File E:\rpcontacts_project\.venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled o 
+n this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ .venv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+    
+ÇÖZÜM : 
+In PowerShell as Administrator, you could try the following:
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+KOMUTUNU ÇALIŞTIRIN
+
 proje_adi\Scripts\activate
 
 Sanal ortamı seçmeniz gerekir. Ctrl + Shift + P / Select Inter.... gelen seçeneklerden
